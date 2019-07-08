@@ -15,7 +15,7 @@ const Header = () => {
         <Navbar.Header>
           <Navbar.Brand className="navbar-header">
             <a className="navbar-brand" href="https://www.gatsbyjs.org/">
-            <img src={logo} alt='Gatsby Logo'/>
+            <img src={logo} alt='Gatsby Logo' />
             </a>
           </Navbar.Brand>
           <Nav className="navbar-nav ml-auto">

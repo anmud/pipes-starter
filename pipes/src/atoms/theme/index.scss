@@ -3,12 +3,17 @@
 
 @import url('./components/header.scss');
 @import url('./components/footer.scss');
+@import url('../../components/SimpleHero/banner.module.scss');
+@import url('../../components/SimpleHero/hero.module.scss');
+
 
 body {
     font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
-    background-image: url('/gatsby-redux-starter/background.jpg');
+    background:  linear-gradient(rgba(128, 0, 128, 0.3), rgba(0, 0, 0, 0.1)), url('../../images/whiteboard-849811.jpg') no-repeat;
+   // background-image:  url('../../images/whiteboard-849811.jpg');
     background-size: cover;
     background-position: center;
+  
 }
 
 .mainContainer {
@@ -18,7 +23,7 @@ body {
     justify-content: center;
     color: #fff;
     h1 {
-        font-size: 65px;
+        font-size: 75px;
         padding-top: 80px;
         text-transform: uppercase;
         font-weight: 800;
@@ -37,11 +42,10 @@ body {
     border-radius: 50%;
     padding: 2px;
 }
-
-.gatsby-square {
+ .gatsby-square {
     margin-top: 80px;
-    padding: 0 30px 50px;
-    border-radius: 15px;
+  padding: 0 30px 50px;
+   border-radius: 15px;
 }
 
 @media(max-width: 767px) {

@@ -3,42 +3,9 @@ import PropTypes from 'prop-types';
 import links from '../../constants/links'
 import { Link } from 'gatsby';
 
-import footerStyles from './footer.module.scss';
+import footerStyles from '../../atoms/theme/components/footer.scss';
 
 const Footer = () => (
-  // <footer className={`footer ${footerStyles.footer}`}>
-  //   <div className="container-fluid text-md-left text-lg-right ">
-  //     <div className="row">
-        
-  //     <div class="col-6 col-md-4">
-       
-  //         <Link  className={`footer ${footerStyles.links}`} to="/imprint">Imprint</Link>
-      
-        
-  //       </div>
-
-  //       <hr class="clearfix w-100 d-md-none pb-3"/>
-
-  //       <div class="col-12 col-sm-6 col-md-8">
-  //            <p>Schwedter Strasse 13</p>
-  //            <p>10119 Berlin</p>
-  //            <p>+49 30 555 72327</p>
-  //            <p>info@pipes.de</p>
-     
-  //      </div>
-       
-       
-  //     </div>
-  //     <div className="row text-lg-center">
-  //     <div className="col-lg-12 col-md-12">
-  //         <p>Copyright © Pipes 2019</p>
-  //       </div>
-  //     </div>
-       
-  //   </div>
-
-
-  // </footer>
 
   <footer className="page-footer font-small blue pt-4" className={`footer ${footerStyles.footer}`}>
 
@@ -46,7 +13,7 @@ const Footer = () => (
 
     <div className="row">
 
-    <div className="col-md-3 mb-md-0 mb-3" className={`footer ${footerStyles.links}`}>
+    <div className="col-md-6 mb-md-0 mb-6" >
 
             <ul className="list-unstyled">
                <li>
@@ -57,11 +24,9 @@ const Footer = () => (
 
             </div>
 
-            <div className="col-md-3 mb-md-0 mb-3">
-           </div>
+      
 
-
-      <div className="col-md-6 mt-md-0 mt-3">
+      <div className="col-md-6 mt-md-0 mt-6">
 
         <p>Schwedter Strasse 13</p>
         <p>10119 Berlin</p>
@@ -70,15 +35,14 @@ const Footer = () => (
 
       </div>
 
-      <hr className="clearfix w-100 d-md-none pb-3"/>
   
     </div>
 
 
 
-    <div className="footer-copyright text-center py-3">© 2019 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> Pipes</a>
-  </div>
+    <div className="footer-copyright text-center py-3 footer-gatsby">Copiright © 2019 Pipes
+    {/* <a href="https://mdbootstrap.com/education/bootstrap/" > Pipes</a> */}
+    </div>
   </div>
  
   

@@ -12,7 +12,7 @@ const TestComponent = ({data}) => (
       <div className="col-lg-12 col-md-12 text-center">
         <div className="gatsby-square">
           
-          <SimpleHero>
+          <SimpleHero >
             <Banner
             title="Pipes"
             info="One-click deployment,  open source platform for moving data with radically less overhead and cost."

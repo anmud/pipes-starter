@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import logo from '../../images/vectorpaint.png'
+import github from '../../images/github.png'
+
 
 import { Link } from 'gatsby';
 import Navbar from 'react-bootstrap/lib/Navbar';
@@ -14,15 +16,15 @@ const Header = () => {
       <Navbar className="navbar navbar-light navbar-expand-lg navbar-static-top sticky-header">
         <Navbar.Header>
           <Navbar.Brand className="navbar-header">
-            <a className="navbar-brand" href="https://www.gatsbyjs.org/">
+            <a className="navbar-brand" href="/home">
             <img src={logo} alt='Gatsby Logo' />
             </a>
           </Navbar.Brand>
           <Nav className="navbar-nav ml-auto">
             <a className="dropdown nav-item nav-link" key="1" href="https://github.com/AVivero/gatsby-redux-starter">
-              {/* <img className="navbar-icon github-icon" src="/gatsby-redux-starter/icons/github.png" alt="GitHub" /> */}
+              <img className="navbar-icon github-icon" src="" alt="GitHub" />
             </a>
-            <a className="dropdown nav-item nav-link" key="2" href="mailto:alexviveropelaez@gmail.com">
+            <a className="dropdown nav-item nav-link" key="2" href="mailto:dimitri@tarasowski.de">
               <i className="navbar-icon material-icons">
                 email
               </i>

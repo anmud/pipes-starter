@@ -8,6 +8,7 @@
     margin-bottom: 2rem;
     padding: 0 1rem;
     letter-spacing: 6px;
+    color: #795aa4;
   }
   .banner p {
     width: 85%;
@@ -16,6 +17,7 @@
     color:white;
     font-size: 3rem;
   }
+  
   @media screen and (min-width: 768px) {
     .banner h1 {
       font-size: 4.5rem;
@@ -25,3 +27,12 @@
     }
   }
   
+  @media (max-width: 400px) {
+    .banner h1 {
+      font-size: 1.5rem;
+    }
+    .banner p {
+      width: 15%;
+      font-size: 1.5rem;
+    }
+}

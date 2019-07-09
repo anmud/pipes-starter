@@ -8,6 +8,7 @@ import '../atoms/theme/index.scss';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`

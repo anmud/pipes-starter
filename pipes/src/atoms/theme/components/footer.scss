@@ -1,24 +1,42 @@
 .footer {
+    bottom: 0;
+    width: 100%;
+    height: 155px;
     background: #7269a7a3;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 72px;
+    //height: 72px;
     color: #fff;
     text-align: center;
     font-size: 14px;
     font-weight: 500;
     p {
-        margin-bottom: 0;
+        display: block;
+        margin: 0.1rem 12rem;;
         font-weight: 600;
+        color: #d3d3d378;
     }
+    
+    a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin: 0.6rem 3.5rem;
+        transition: all 0.3s linear;
+        font-weight: bold;
+      }
+      
+      a:hover {
+        color: red;
+      }
     
 }
 
 
-
 .footer-gatsby {
-    color: #d3d3d378;
+    color: black;
+   
 }
 
 

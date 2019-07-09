@@ -1,0 +1,11 @@
+.jumbotron {
+    background-image: url(../../images/whiteboard-849811.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: left
+  }
+
+  .display-3 {
+    color: #795aa4;
+  }

@@ -4,21 +4,44 @@
 @import url('./components/header.scss');
 @import url('./components/footer.scss');
 @import url('../../components/SimpleHero/banner.module.scss');
-@import url('../../components/SimpleHero/hero.module.scss');
+//@import url('../../components/SimpleHero/hero.module.scss');
 
 
 body {
     font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
-    background:  linear-gradient(rgba(128, 0, 128, 0.3), rgba(0, 0, 0, 0.1)), url('../../images/whiteboard-849811.jpg') no-repeat;
-   // background-image:  url('../../images/whiteboard-849811.jpg');
-    background-size: cover;
-    background-position: center;
-  
+    //background-position: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+   // color: #35495E;
+    margin: 0;
+    padding: 0;
 }
+
+.hero{
+    background-image:  linear-gradient(rgba(128, 0, 128, 0.3), rgba(0, 0, 0, 0.2)), url('../../images/whiteboard-849811.jpg');
+    background-repeat: no-repeat;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: calc(100vh - 62px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
 
 .mainContainer {
     min-height: 84vh;
     display: flex;
+    flex: 1;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     color: #fff;
@@ -42,14 +65,38 @@ body {
     border-radius: 50%;
     padding: 2px;
 }
- .gatsby-square {
-    margin-top: 80px;
-  padding: 0 30px 50px;
-   border-radius: 15px;
-}
+//  .gatsby-square {
+//     margin-top: 80px;
+//     padding: 0 30 50px;
+//    border-radius: 15px;
+// }
 
 @media(max-width: 767px) {
     .gatsby-square {
         margin-top: 20px;
     }
 }
+
+@media (max-width: 400px) {
+    body{
+        flex-direction: row;
+        flex: 1;
+        background-color: black;
+    }
+    .hero { 
+        background-image: linear-gradient(rgba(128, 0, 128, 0.3), rgba(0, 0, 0, 0.2)), url('../../images/whiteboard-849811.jpg');
+        display: inline;
+     }
+}
+
+@media (min-width: 768px) {
+    body {
+      flex-direction: row;
+      flex: 1;
+      background-color: white;
+    }
+    .mainContainer {
+      flex: 1;
+    }
+    
+  }

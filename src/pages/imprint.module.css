@@ -15,12 +15,13 @@
     margin-top: 1rem; 
     margin-bottom: 1rem; 
     font-size: 1.5rem;
-    color: #795aa4;
+    color: #486078;
  }  
 
  
   .about-info{
       display: block;
+      flex: 1;
       margin: 0 auto;
       padding: 1rem;
   }
@@ -48,12 +49,6 @@
     }
   }
   
-  @media (min-width: 1200px) {
-    .about-center {
-      width: 95vw;
-      max-width: 1170px;
-    }
-  }
   
   @media (max-width: 400px) {
     .about {

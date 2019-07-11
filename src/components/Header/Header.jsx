@@ -16,7 +16,7 @@ const Header = () => {
       <Navbar className="navbar navbar-light navbar-expand-lg navbar-static-top sticky-header">
         <Navbar.Header>
           <Navbar.Brand className="navbar-header">
-            <a className="navbar-brand" href="/home">
+            <a className="navbar-brand" href="/">
             <img src={logo} alt='Gatsby Logo' />
             </a>
           </Navbar.Brand>

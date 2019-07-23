@@ -1,14 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import logo from '../../images/vectorpaint.png'
 import github from '../../images/github.png'
 
-
-import { Link } from 'gatsby';
 import Navbar from 'react-bootstrap/lib/Navbar';
 import Nav from 'react-bootstrap/lib/Nav';
 
 import headerStyles from './header.module.scss';
+
+
+
 
 const Header = () => {
   return (
@@ -21,10 +21,11 @@ const Header = () => {
             </a>
           </Navbar.Brand>
           <Nav className="navbar-nav ml-auto">
-            <a className="dropdown nav-item nav-link" key="1" href="https://github.com/AVivero/gatsby-redux-starter">
-              <img className="navbar-icon github-icon" src="" alt="GitHub" />
+            <a className="dropdown nav-item nav-link" key="1" href="https://github.com/pipes">
+              <img className="navbar-icon github-icon" src={github} alt="GitHub" />
             </a>
-            <a className="dropdown nav-item nav-link" key="2" href="mailto:dimitri@tarasowski.de">
+          
+            <a className="dropdown nav-item nav-link" key="2" href="mailto:hello@pipesdata.com">
               <i className="navbar-icon material-icons">
                 email
               </i>

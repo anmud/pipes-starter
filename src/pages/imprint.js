@@ -11,7 +11,7 @@ const Imprint = () => {
         <Jumbotron title="Imprint" />
         <section className={styles.about} >
         
-   <div  >
+   <div className={styles.textBox} >
       <article >
          
 

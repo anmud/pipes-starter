@@ -3,10 +3,14 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import SimpleHero from '../SimpleHero/SimpleHero'
 import Banner from '../SimpleHero/Banner'
-
+import Helmet from "react-helmet"
 import testComponent from './testComponent.module.scss';
 
 const TestComponent = ({data}) => (
+  <div id="wrapper">
+  <Helmet>
+            <title>Pipesdata.com - Homepage</title>
+        </Helmet>
   <div className="mainContainer">
     <div className="row">
       <div className="col-lg-12 col-md-12 text-center">
@@ -23,6 +27,7 @@ const TestComponent = ({data}) => (
         </div>
       </div>
     </div>
+  </div>
   </div>
 );
 

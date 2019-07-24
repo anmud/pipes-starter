@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import Jumbotron from '../components/Jumbotron/Jumbotron';
 import App from '../layouts/App'
 import styles from '../pages/imprint.module.css'
+import Helmet from "react-helmet"
 
 const Imprint = () => {
   
     return (
       <App>
        
+        <Helmet>
+            <title>Pipesdata.com - Imprint</title>
+        </Helmet>
         <Jumbotron title="Imprint" />
         <section className={styles.about} >
         
@@ -17,17 +21,17 @@ const Imprint = () => {
 
           <div className={styles.aboutInfo}>
           <h5>Angaben gemäß § 5 TMG</h5>
-          <p> Pipes GmbH</p>
-         <p>Schwedter Straße 13,</p>
-         <p>10119 Berlin</p>
+          <p> Dimitri Tarasowski</p>
+         <p>Bruno-Bürgel-Weg 39A</p>
+         <p>12439 Berlin</p>
           </div>
           
           
         
        <div className={styles.aboutInfo}>
        <h5>Dimitri Tarasowski</h5> 
-        <p>Tel. +49 030 55572327</p>
-        <p>E-Mail: dimitri@tarasowski.de</p>
+        <p>Tel. +49 157 76831593</p>
+        <p>E-Mail: hello [@] pipesdata.com</p>
        </div>
 
 

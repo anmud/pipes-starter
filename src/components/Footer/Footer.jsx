@@ -19,15 +19,16 @@ const Footer = () => (
 
 <div className="info">
 
-   <p>Schwedter Strasse 13</p>
-   <p>10119 Berlin</p>
-   <p>+49 30 555 72327</p>
-   <p>info@pipes.de</p>
+   <p>Dimitri Tarasowski</p>
+   <p>Bruno-Bürgel-Weg 39A</p>
+   <p>12439 Berlin</p>
+   <p>+49 157 76831593</p>
+   <p>hello [@] pipesdata.com</p>
 
  </div>
 
 <div className="copyright">
-Copiright © {new Date().getFullYear()}  Pipes
+Copiright © {new Date().getFullYear()}  Pipesdata.com
 </div>
 
 

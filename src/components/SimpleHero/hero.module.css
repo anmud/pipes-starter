@@ -1,5 +1,5 @@
   .defaultHero {
-    min-height: calc(100vh - 62px);;
+    min-height: calc(90vh - 62px);
     min-width: 1400px;
     background:   linear-gradient(rgba(128, 0, 128, 0.3), rgba(0, 0, 0, 0.2)), url('../../images/whiteboard-849811.jpg') center cover/ no-repeat; 
     display: flex;

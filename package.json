@@ -20,7 +20,7 @@
     "gatsby-transformer-sharp": "^2.2.1",
     "lodash": "^4.17.11",
     "material-icons": "^0.2.3",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-bootstrap": "^0.32.4",
